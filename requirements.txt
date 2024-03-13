@@ -1,2 +1,5 @@
 mmh3
 bitarray
+thefuzz
+bs4
+requests
