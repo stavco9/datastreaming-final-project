@@ -4,10 +4,7 @@ import pandas as pd
 from random import shuffle
 
 class Dataset:
-    def __init__(self,
-                 links_base_url='https://en.wikipedia.org/wiki/', 
-                 links_uri='Wikipedia:Good_articles/By_length',
-                 links_column='Article'):
+    def __init__(self, links_base_url, links_uri, links_column):
         self.links_base_url = links_base_url
         self.links_uri = links_uri
         self.links_column = links_column
