@@ -3,3 +3,4 @@ bitarray
 thefuzz
 bs4
 requests
+DeezyMatch
