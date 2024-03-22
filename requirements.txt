@@ -4,3 +4,6 @@ thefuzz
 bs4
 requests
 DeezyMatch
+mysql-connector-python
+python-Levenshtein
+geopy
