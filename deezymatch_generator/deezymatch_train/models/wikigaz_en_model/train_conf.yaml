@@ -1,8 +1,8 @@
 general:
-  use_gpu: False    # only if available
+  use_gpu: True    # only if available
   # specify CUDA device, these are 0-indexed, e.g., 
   #   cuda:0, cuda:1 or others. "cuda" is the default CUDA device
-  #gpu_device: "cuda"
+  gpu_device: "cuda"
   # Parent dir to save trained models 
   models_dir: "./models"
 
