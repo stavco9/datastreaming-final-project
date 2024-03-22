@@ -1,0 +1,9 @@
+# 03/22/2024_17:57:18
+# Current directory: /Users/scohen6/projects/idc_msc/datastreaming/datastreaming-final-project/deezymatch_generator/deezymatch_train
+# ------------------
+# Arguments:
+# input_file_path: /Users/scohen6/projects/idc_msc/datastreaming/datastreaming-final-project/deezymatch_generator/deezymatch_train/train_conf.yaml
+# dataset_path: /Users/scohen6/projects/idc_msc/datastreaming/datastreaming-final-project/deezymatch_generator/deezymatch_train/wikigaz_train_set.txt
+# model_name: wikigaz_en_model
+# n_train_examples: None
+# ------------------

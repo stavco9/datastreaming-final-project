@@ -7,3 +7,5 @@ DeezyMatch
 mysql-connector-python
 python-Levenshtein
 geopy
+scikit-learn
+pandas
