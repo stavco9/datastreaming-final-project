@@ -9,3 +9,4 @@ python-Levenshtein
 geopy
 scikit-learn
 pandas
+numpy
