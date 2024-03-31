@@ -31,14 +31,14 @@ class Dataset:
     def build_words_list(self, num_of_articles):
         shuffle(self.articles_list)
 
-        words_list = []
+        words_list = {}
 
         for article in self.articles_list[0:min(num_of_articles, len(self.articles_list))]:
             response = requests.get(f"{self.links_base_url.rstrip('/')}/{article}",headers={'User-Agent': 'Mozilla/5.0'})
             soup = bs4.BeautifulSoup(response.text,'html.parser')
             
             articale_list = soup.body.get_text(' ', strip=True).split()
-            words_list.extend(articale_list)
+            shuffle(articale_list)
+            words_list[article] = articale_list
         
-        shuffle(words_list)
         return words_list
