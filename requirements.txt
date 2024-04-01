@@ -10,3 +10,4 @@ geopy
 scikit-learn
 pandas
 numpy
+distinctipy
